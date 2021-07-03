@@ -1,0 +1,28 @@
+{
+  "name": "bump-metrics",
+  "version": "0.0.1",
+  "description": "node.js app to generate csv file with bump token metrics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fyang1024/bump-metrics.git"
+  },
+  "keywords": [
+    "bump",
+    "metrics"
+  ],
+  "author": "fyang1024@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fyang1024/bump-metrics/issues"
+  },
+  "homepage": "https://github.com/fyang1024/bump-metrics#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "web3-eth": "^1.4.0",
+    "web3-utils": "^1.4.0"
+  }
+}
