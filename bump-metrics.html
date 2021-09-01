@@ -63,7 +63,7 @@
                 ethers.utils.id("BumpPurchased(address,uint256,uint256)")
             ]
         };
-        const purchases = await contract.queryFilter(filter, 13139385);
+        const purchases = await contract.queryFilter(filter, 13139790);
         document.querySelector('#tokenPrice').innerText = `${ethers.utils.formatUnits(purchases[purchases.length - 1].args[2], 4)} USDC`;
     </script>
 </body>
