@@ -48,7 +48,7 @@
         await contract.getSwapRateBumpUsdc()
       ]
   );
-  document.querySelector('#currentTVL').innerText = `${ethers.utils.formatUnits(currentTVL, 6)} USDC`;
+  document.querySelector('#currentTVL').innerText = `${ethers.utils.commify(ethers.utils.formatUnits(currentTVL, 6))} USDC`;
   document.querySelector('#tokenPrice').innerText = `${ethers.utils.formatUnits(currentPrice, 4)} USDC`;
 </script>
 </body>
